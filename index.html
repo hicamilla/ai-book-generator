@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <link rel="stylesheet" href="src/style.css">
+  <title>ALFREDO</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>I am Alfredo</h1>
+      <h3>Your own book assistant</h3>
+    </header>
+    <main>
+      <form id="book-generator-form"class="search-box">
+        <input 
+        type="text" 
+        placeholder="Type here and press enter" 
+        autofocous 
+        required 
+        autocomplete="off"
+        class="instructions"
+        id="user-instructions" />
+      </form>
+      <div class="hint">You can search for themes like Crime, Love, Flower, or any other topic.;</div>
+
+      <div class="book hidden" id="book"></div>
+    </main>
+  </div>
+  <footer>
+    This project was coded by <a href="#">Camilla</a>. It is open source on <a href="#">GitHub</a> and is hosted on <a
+      href="#">Netlify</a>.
+  </footer>
+  <script src="src/index.js"></script>
+</body>
+</html>
