@@ -3,7 +3,7 @@ function displayBook(response) {
     new Typewriter("#book", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 0.5,
+    delay: 30,
     cursor: "",
   });
 }

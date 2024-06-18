@@ -49,6 +49,7 @@ input {
 	font-family: var(--main-font);
 	font-size: 18px;
 	font-weight: 400;
+	letter-spacing: 0.2px;
 	background-color: #ffff;
 	border: none;
 	border-radius: 10px;
@@ -138,6 +139,13 @@ input::placeholder {
 .book button:hover {
 	background-color: var(--accent-color-2);
 	color: var(--secondary-text-color);
+}
+
+.generating {
+	font-family: var(--body-font);
+	color: var(--primary-text-color);
+	font-size: 15px;
+	padding: 24px 0 0 0;
 }
 
 footer {
